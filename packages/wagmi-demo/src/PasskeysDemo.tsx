@@ -25,6 +25,7 @@ import {
 } from "viem/account-abstraction"
 import { baseSepolia } from "viem/chains"
 
+const pimlicoApiKey = import.meta.env.VITE_PIMLICO_API_KEY;
 const chain = baseSepolia
 const pimlicoUrl = `https://api.pimlico.io/v2/${chain.id}/rpc?apikey=${pimlicoApiKey}`
 
